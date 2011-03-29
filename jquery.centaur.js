@@ -2,8 +2,8 @@
 Original code pilfered from http://textaligncentaur.com/ by Syd Lawrence
 I could not possibly claim this is my own code....
 */
-$.fn.centaur = function(el) {
-	el = $(el);
+$.fn.centaur = function() {
+	el = this;
 
 	html = el.html();
 	  
